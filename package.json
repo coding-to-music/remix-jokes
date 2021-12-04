@@ -6,7 +6,8 @@
   "prisma": {
     "seed": "node --require esbuild-register prisma/seed.ts"
   },
-  "scripts": {    "build": "remix build",
+  "scripts": {
+    "build": "remix build",
     "dev": "remix dev",
     "postinstall": "remix setup node",
     "start": "kill-port 3000 && remix-serve build"
@@ -15,6 +16,7 @@
     "@prisma/client": "^3.6.0",
     "@remix-run/react": "^1.0.6",
     "@remix-run/serve": "^1.0.6",
+    "bcrypt": "^5.0.1",
     "kill-port": "^1.6.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -22,6 +24,7 @@
   },
   "devDependencies": {
     "@remix-run/dev": "^1.0.6",
+    "@types/bcrypt": "^5.0.0",
     "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
     "esbuild-register": "^3.2.0",
