@@ -1,4 +1,8 @@
-# Welcome to Remix!
+# Remix-Run joke app with RSS feed, API routes, Prisma, Auth, Create new Users, CRUD content
+
+https://github.com/coding-to-music/remix-jokes
+
+## Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
 
